@@ -1,0 +1,24 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color: #EEE6DB;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 1440px;
+    height: 95px;
+    background: rgba(231, 108, 30, 0.9);
+}
+
+header img {
+    width: 45px;
+    height: 45px;
+    margin-top: 20px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-around;
+}
