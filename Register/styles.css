@@ -1,3 +1,77 @@
 *{
     font-family: 'Ubuntu', sans-serif;
 }
+
+body {
+    background-color: #eedfdb;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.main{
+
+    background: rgba(231, 108, 30, 0.9);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+.register_ins{
+    background: rgba(217, 217, 217, 0.8);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 21px;
+    width: 400px;
+    height: 25px;
+    border: none;
+    color: #363635;
+}
+
+.register_tit{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 34px;
+    color: #363635;
+
+}
+
+#button_cad{
+    background: rgba(217, 217, 217, 0.8);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 21px;
+    margin-right: 30px;
+    height: 33px;
+    width: 100px;
+    color: #363635;
+    border: none;
+}
+
+#button_can{
+    background: rgba(217, 217, 217, 0.8);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 21px;
+    height: 24px;
+    height: 33px;
+    width: 100px;
+    color: #363635;
+    border: none;
+}
+
+.buttons {
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    
+
+}
