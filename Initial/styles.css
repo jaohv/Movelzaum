@@ -37,6 +37,7 @@ body {
     border-radius: 21px;
     max-width: 240px;
     width: 100%;
+    border: none;
 }
 
 .menu-initial {
