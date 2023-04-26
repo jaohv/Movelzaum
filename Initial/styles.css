@@ -21,6 +21,8 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: rgba(231, 108, 30, 0.9);
+    height: 100%;
+    position: fixed;
 }
 
 .sidebar button {
@@ -35,6 +37,7 @@ body {
     border-radius: 21px;
     max-width: 240px;
     width: 100%;
+    border: none;
 }
 
 .menu-initial {
@@ -52,9 +55,10 @@ body {
 
 .content {
     display: flex;
-    width: 100%;
+    width: 80%;
     flex-direction: column;
     align-items: center;
+    margin-left: 20%;
 }
 
 #title {
