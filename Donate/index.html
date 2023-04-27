@@ -38,30 +38,39 @@
             </a>
         </div>
         <div class="content">
-            <div class="header">
-                <img src="" alt="">
+            <header>
+                <img src="../Assets/logo-comodoar.svg" alt="Mãos juntas">
                 <h1>REALIZAR DOAÇÃO</h1>
-            </div>
+            </header>
             <div class="content2">
                 <form action="">
                     <label for="object">OBJETO PARA DOAR:</label>
                     <input type="text" name="object">
                     <label for="condition">CONDIÇÕES:</label>
-                    <input type="text" name="condition">
+                    <select name="condition" id="condition">
+                        <option value="bom">BOM</option>
+                        <option value="bom">MÉDIO</option>
+                        <option value="bom">RUIM</option>
+                    </select>
                     <label for="adress">ENDEREÇO:</label>
                     <input type="text" name="adress">
                     <label for="telephone">TELEFONE:</label>
-                    <input type="text" name="telephone">
+                    <input type="tel" name="telephone">
                     <label for="comment">COMENTÁRIO</label>
                     <input type="text" id="comment" name="comment">
                 </form>
                 <div class="image">
-                    <input type="file" name="photo" id="photo">
+                    <div class="box-input">
+                        <label for="photo">Inserir</label>
+                        <input type="file" name="photo" id="photo">
+                    </div>
                 </div>
             </div>
             <footer>
-                <button>CANCELAR</button>
-                <button>DOAR</button>
+                <div class="two-button">
+                    <button>CANCELAR</button>
+                    <button>DOAR</button>
+                </div>
             </footer>
         </div>
     </div>
