@@ -65,6 +65,7 @@ body {
     display: flex;
     flex-direction: row;
     gap: 20px;
+    width: 80%;
 }
 
 form {
@@ -75,10 +76,20 @@ form {
     background: rgba(231, 108, 30, 0.9);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
+    width: 100%;
     min-height: 550px;
-    min-width: 370px;
+    min-width: 350px;
     max-width: 500px;
     padding: 20px;
+}
+
+form select {
+    width: 100%;
+    min-height: 40px;
+    background: rgba(217, 217, 217, 0.8);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 21px;
+    border: none;
 }
 
 form input {
@@ -98,6 +109,83 @@ form label {
     margin-bottom: 10px;
 }
 
-#comment{
+#comment {
     min-height: 200px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    position: fixed;
+    bottom: 0;
+}
+
+.two-button {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.two-button button {
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 21px;
+    border: none;
+    height: 50px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #363635;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+    color: #000000;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    background: rgba(231, 108, 30, 0.9);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    width: 100%;
+    max-height: 275px;
+    min-width: 350px;
+    max-width: 300px;
+    padding: 20px;
+}
+
+.image input {
+    display: none;
+}
+
+.box-input {
+    display: flex;
+    background: rgba(217, 217, 217, 0.8);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 21px;
+    border: none;
+    padding: 12px;
+    width: 91%;
+}
+
+.box-input label {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+    text-align: center;
+    color: #363635;
 }
