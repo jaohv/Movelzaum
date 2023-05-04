@@ -38,12 +38,13 @@ body {
     max-width: 240px;
     width: 100%;
     border: none;
+    padding: 10px 20px;
 }
 
 .menu-initial {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 30px;
     margin-top: 130px;
     height: 100%;
 }
@@ -97,3 +98,11 @@ th {
 tr:nth-child(even) {
     background-color: #f2f2f2;
 }
+#profile-buttom {
+    margin-top: 10px;
+}
+.back img {
+    width: 45px;
+    height: 45px;
+    margin-right: 350px;
+}	

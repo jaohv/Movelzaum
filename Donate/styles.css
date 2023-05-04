@@ -38,12 +38,13 @@ body {
     max-width: 240px;
     width: 100%;
     border: none;
+    padding: 10px 20px;
 }
 
 .menu-initial {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 30px;
     margin-top: 130px;
     height: 100%;
 }
@@ -63,9 +64,10 @@ body {
 
 .content2 {
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
     gap: 20px;
-    width: 80%;
+    width: 62%;
 }
 
 form {
@@ -138,6 +140,7 @@ footer {
     line-height: 29px;
     text-align: center;
     color: #363635;
+    padding: 10px 20px;
 }
 
 h1 {
@@ -150,7 +153,7 @@ h1 {
 header {
     display: flex;
     flex-direction: row;
-    width: 80%;
+    width: 62%;
 }
 
 .image {
@@ -188,4 +191,14 @@ header {
     line-height: 34px;
     text-align: center;
     color: #363635;
+}
+
+#profile-buttom {
+    margin-top: 10px;
+}
+.back img {
+    height: 45px;
+    width: 45px;
+    float: right;
+    margin-right: 350px;
 }
