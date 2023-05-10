@@ -199,6 +199,8 @@ header {
 .back img {
     height: 45px;
     width: 45px;
-    float: right;
-    margin-right: 350px;
+}
+
+.back {
+    width: 100%;
 }
