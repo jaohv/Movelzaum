@@ -9,6 +9,7 @@ class UsuarioController
         $acao = $get['acao'];
         if ($acao == "cadastrar") {
             $usuario = new Usuario();
+            var_dump($post)
 
             $nome = $post["nome"];
             $usuario->__set("nome", $nome);
@@ -24,6 +25,12 @@ class UsuarioController
 
             $senha = $post["senha"];
             $confirmar_senha = $post["confirmar_senha"];
+
+            $endereco = $post["endereco"];
+            $usuario->__set("endereco", $email);
+
+            $datanascimento = $post["datanascimento"];
+            $usuario->__set("datanascimento", $datanascimento);
 
             if ($senha == $confirmar_senha) {
                 $senha_hash = hash("sha3-256", $senha);
