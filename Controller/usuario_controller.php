@@ -9,7 +9,7 @@ class UsuarioController
         $acao = $get['acao'];
         if ($acao == "cadastrar") {
             $usuario = new Usuario();
-            var_dump($post)
+            var_dump($post);
 
             $nome = $post["nome"];
             $usuario->__set("nome", $nome);
@@ -66,7 +66,7 @@ class UsuarioController
                 $_SESSION["logado"] = true;
                 $_SESSION["login"] = $login;
 
-                $retorno = ["msg" => "", "erro" => "0", "url" => "principal.php"];
+                $retorno = ["msg" => "", "erro" => "0", "url" => "../view/initial/index.php"];
                 echo json_encode($retorno);
             } else {
                 $retorno = ["msg" => "Senha Invalida!!", "erro" => "1"];

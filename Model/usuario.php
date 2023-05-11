@@ -70,7 +70,7 @@ class Usuario
         $database = new Database();
         $con = $database->connect();
 
-        $sql = "SELECT id, login FROM usuario WHERE login = :login AND senha = :senha";
+        $sql = "SELECT id, email FROM usuario WHERE email = :login AND senha = :senha";
 
         $st = $con->prepare($sql);
         $st->bindParam(':login', $login);
