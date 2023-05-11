@@ -1,5 +1,5 @@
 <?php
-require_once("../infra/Database.php");
+require_once("../infra/database.php");
 
 class Usuario
 {

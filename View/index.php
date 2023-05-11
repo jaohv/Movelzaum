@@ -10,6 +10,33 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
     <title>Movelzaum - Faça doações</title>
+    <script src="../static/js/jquery-3.6.4.min.js"></script>
+		<script type="text/javascript">
+            $( document ).ready(function() {
+			});
+            
+            function processa_login(){
+				var formDados = {
+     			 	login: $("#e-mail").val(),
+      			 	senha: $("#senha").val(),
+    			};
+				
+				$.ajax({
+					type: "POST",
+					url: "../Controller/usuario_controller.php?acao=logar",
+					data: formDados,
+					dataType: "json",
+					}).done(function (dataRetorno) {
+						if(dataRetorno.erro == 0){
+							window.location.href = dataRetorno.url;
+						}
+						else{
+							alert(dataRetorno.msg)
+						}
+						
+					});
+				}
+		</script>
 </head>
 
 <body>
@@ -29,18 +56,13 @@
                 <div class="titleLogin">
                     Acesse a plataforma para realizar a sua doação!
                 </div>
-                <label>E-MAIL</label>
-                <input>
-                <label>SENHA</label>
-                <input>
+                    <label>E-MAIL</label>
+                    <input type="text" id="e-mail" name="e-mail">
+                    <label>SENHA</label>
+                    <input type="password" id="senha" name="senha">
+                    <input type="button" value="ENTRAR" onclick="processa_login()">
                 <a href="./ResetPassword/index.html" style="text-decoration: none;">
                     <span>Esqueceu a senha?</span>
-                </a>
-                <a href="./Initial/index.html" style="text-decoration: none;">
-                    <button>
-                        ENTRAR
-                    </button>
-                </a>
                 <a href="./Register/index.html" style="text-decoration: none;">
                     <span>Cadastre aqui!</span>
                 </a>
