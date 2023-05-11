@@ -71,7 +71,7 @@ class UsuarioController
             } else {
                 $retorno = ["msg" => "Senha Invalida!!", "erro" => "1"];
                 echo json_encode($retorno);
-                json_decode($dados);
+                #json_decode($dados);
             }
         } else if ($acao == "logout") {
             session_start();
