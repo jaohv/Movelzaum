@@ -39,7 +39,7 @@ class Usuario
         $st->bindParam(':email', $this->email);
         $st->bindParam(':senha', $this->senha);
         $st->bindParam(':endereco', $this->endereco);
-        $st->bindValue(':perfil', 1);
+        $st->bindValue(':perfil', 2);
         $status = $st->execute();
 
         if ($status == true) {
