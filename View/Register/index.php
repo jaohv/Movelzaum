@@ -60,7 +60,8 @@
                <label class="register_tit"> Nome: </label> <br> <input type="text" class="register_ins" name="nome" id="nome" /> <br><br>
                <label class="register_tit"> Data de Nascimento: <br> </label> <input type="date" class="register_ins" name="data_nasc" id="datanascimento"/> <br><br>
                <label class="register_tit"> Email: </label> <br> <input type="text" class="register_ins" name="email" id="email"/> <br><br>
-               <label class="register_tit"> Senha: </label> <br> <input type="text" class="register_ins" name="senha" id="senha"/> <br><br>
+               <label class="register_tit"> Senha: </label> <br> <input type="password" class="register_ins" name="senha" id="senha"/> <br><br>
+               <label class="register_tit"> Confirmar Senha: </label> <br> <input type="password" class="register_ins" name="confirmarsenha" id="confirmarsenha"/> <br><br>
                <label class="register_tit"> Endereço: </label> <br> <input type="text" class="register_ins"name="endereco" id="endereco"/> <br><br>
 
                 <div class="buttons">

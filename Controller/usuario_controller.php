@@ -20,11 +20,11 @@ class UsuarioController
             $email = $post["email"];
             $usuario->__set("email", $email);
 
-            $login = $post["login"];
-            $usuario->__set("login", $login);
-
             $senha = $post["senha"];
-            $confirmar_senha = $post["confirmar_senha"];
+            $usuario->__set("senha", $senha);
+
+            $confirmarsenha = $post["confirmarsenha"];
+            $usuario->__set("confirmarsenha", $confirmarsenha);
 
             $endereco = $post["endereco"];
             $usuario->__set("endereco", $email);
@@ -32,7 +32,7 @@ class UsuarioController
             $datanascimento = $post["datanascimento"];
             $usuario->__set("datanascimento", $datanascimento);
 
-            if ($senha == $confirmar_senha) {
+            if ($senha == $confirmarsenha) {
                 $senha_hash = hash("sha3-256", $senha);
                 $usuario->__set("senha", $senha_hash);
 
