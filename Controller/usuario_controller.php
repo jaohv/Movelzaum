@@ -27,7 +27,7 @@ class UsuarioController
             $usuario->__set("confirmarsenha", $confirmarsenha);
 
             $endereco = $post["endereco"];
-            $usuario->__set("endereco", $email);
+            $usuario->__set("endereco", $endereco);
 
             $datanascimento = $post["datanascimento"];
             $usuario->__set("datanascimento", $datanascimento);

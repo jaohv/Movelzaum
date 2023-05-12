@@ -25,6 +25,7 @@
 					nome: $("#nome").val(),
 					email: $("#email").val(),
 					senha: $("#senha").val(),
+                    confirmarsenha: $("#confirmarsenha").val(),
 					endereco: $("#endereco").val(),
                     perfil: 1,
 
