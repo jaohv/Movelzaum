@@ -16,7 +16,7 @@
     <div class="main">
         <div class="sidebar">
             <div class="header-sidebar">
-                <a href="../../Initial/index.html">
+                <a href="../index.php">
                     <img src="../../Assets/back-icon.svg" alt="Voltar" width="57px" height="52px">
                 </a>
             </div>

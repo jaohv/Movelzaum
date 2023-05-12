@@ -1,5 +1,5 @@
 <?php
-require_once "../model/Usuario.php";
+require_once "../Model/usuario.php";
 
 class UsuarioController
 {
@@ -65,8 +65,9 @@ class UsuarioController
                 session_start();
                 $_SESSION["logado"] = true;
                 $_SESSION["login"] = $login;
+                $_SESSION["id"] = $id;
 
-                $retorno = ["msg" => "", "erro" => "0", "url" => "../view/initial/index.php"];
+                $retorno = ["msg" => "", "erro" => "0", "url" => "../View/Initial/index.php"];
                 echo json_encode($retorno);
             } else {
                 $retorno = ["msg" => "Senha Invalida!!", "erro" => "1"];

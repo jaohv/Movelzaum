@@ -16,7 +16,7 @@
     <div class="main">
         <div class="sidebar">
             <img src="../Assets/profile-image.svg" alt="Perfil" width="110px" height="110px">
-            <a href="../Profile/index.html">
+            <a href="../Profile/index.php">
                 <button id="profile-buttom">
                     Meu perfil
                 </button>

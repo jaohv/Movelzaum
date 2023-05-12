@@ -16,7 +16,7 @@
     <div class="main">
         <div class="sidebar">
             <div class="header-sidebar">
-                <a href="../Initial/index.html">
+                <a href="../Initial/index.php">
                     <img src="../Assets/back-icon.svg" alt="Voltar" width="57px" height="52px">
                 </a>
             </div>
@@ -25,7 +25,9 @@
                 <h3>NOME DO USUARIO</h3>
             </div>
             <div class="menu-profile">
-                <button>Editar dados</button>
+		<a href="../../../Controller/usuario_controller.php?acao=editar&id=".$_SESSION["id"]"">
+		<button>Editar dados</button>
+		</a>
                 <button>Preferências</button>
             </div>
             <button id="logout-button">Sair</button>
