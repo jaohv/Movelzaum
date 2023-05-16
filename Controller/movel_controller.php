@@ -1,5 +1,5 @@
 <?php
-require_once "../Model/doar.php";
+require_once "../Model/movel.php";
 
 class MovelController
 {
@@ -9,8 +9,7 @@ class MovelController
         $acao = $get['acao'];
         if ($acao == "doar") {
             $movel = new Movel();
-            var_dump($post);
-
+            
             $nome = $post["nome"];
             $movel->__set("nome", $nome);
 

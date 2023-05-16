@@ -84,8 +84,8 @@
             </header>
             <div class="content2">
                 <form action="">
-                    <label for="objeto">Objeto para doar:</label>
-                    <input type="text" name="objeto">
+                    <label for="nome">Objeto para doar:</label>
+                    <input type="text" id="nome" name="nome">
                     <label for="condicao">Condições:</label>
                     <select name="condicao" id="condicao">
                         <option value="bom">BOM</option>
@@ -93,11 +93,11 @@
                         <option value="bom">RUIM</option>
                     </select>
                     <label for="endereco">Endereço:</label>
-                    <input type="text" name="endereco">
+                    <input type="text" id="endereco" name="endereco">
                     <label for="telefone">Telefone:</label>
-                    <input type="tel" name="telefone">
-                    <label for="comentario">Comentários:</label>
-                    <input type="text" id="comment" name="comentario">
+                    <input type="tel" id="telefone" name="telefone">
+                    <label for="descricao">Comentários:</label>
+                    <input type="text" id="descricao" name="descricao">
                 </form>
                 <div class="image">
                     <div class="box-input">

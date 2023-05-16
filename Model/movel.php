@@ -24,20 +24,20 @@ class Movel
         }
     }
 
-    public function doar()
+    public function salvar()
     {
         $db = new Database();
         $con = $db->connect();
 
-        $sql = "INSERT INTO movel (nome, endereco, telefone, condicao, decricao) 
-                VALUES (:nome, :endereco, :telefone, :condicao, :decricao)";
+        $sql = "INSERT INTO movel (nome, endereco, telefone, condicao, descricao) 
+                VALUES (:nome, :endereco, :telefone, :condicao, :descricao)";
 
         $st = $con->prepare($sql);
         $st->bindParam(':nome', $this->nome);
         $st->bindParam(':endereco', $this->endereco);
         $st->bindParam(':telefone', $this->telefone);
         $st->bindParam(':condicao', $this->condicao);
-        $st->bindParam(':decricao', $this->decricao);
+        $st->bindParam(':descricao', $this->descricao);
         $status = $st->execute();
 
         if ($status == true) {
