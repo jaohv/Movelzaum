@@ -22,23 +22,23 @@
                 </button>
             </a>
             <div class="menu-initial">
-                <a href="../How-Donate/index.html">
+                <a href="../How-Donate/index.php">
                     <button>
                         Como doar?
                     </button>
                 </a>
-                <a href="../Donate/index.html">
+                <a href="../Donate/index.php">
                 <button>
                     Quero doar
                 </button>
                 </a>
-                <a href="../Track-Donation/index.html">
+                <a href="../Track-Donation/index.php">
                 <button>
                     Acompanhar doações
                 </button>
                 </a>
             </div>
-            <a href="../index.html">
+            <a href="../index.php">
                 <button id="logout-button">
                     Sair
                 </button>

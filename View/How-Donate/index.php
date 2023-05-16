@@ -34,7 +34,7 @@
         <div class="divDoar">
             <a class="numeroDoar">1-</a>
             <img src="../Assets/image1-comoDoar.svg" alt="img1_comoDoar">
-            <p class="textoDoar">Na tela iniciar acessar a opção <u><a style="text-decoration: none; "href="../Donate/index.html">QUERO DOAR</a></u></p>
+            <p class="textoDoar">Na tela iniciar acessar a opção <u><a style="text-decoration: none; "href="../Donate/index.php">QUERO DOAR</a></u></p>
         </div>
     
         <div class="divDoar">

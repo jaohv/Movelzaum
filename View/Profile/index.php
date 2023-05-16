@@ -28,7 +28,9 @@
 		<a href="../../../Controller/usuario_controller.php?acao=editar&id=".$_SESSION["id"]"">
 		<button>Editar dados</button>
 		</a>
+        <a href="../Preferences/index.php">
                 <button>Preferências</button>
+            </a>
             </div>
             <button id="logout-button">Sair</button>
         </div>

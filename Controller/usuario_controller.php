@@ -43,9 +43,8 @@ class UsuarioController
                     $retorno = ["msg" => "Erro ao cadastrar o usuário!!", "erro" => "1"];
                     echo json_encode($retorno);
                 }
-            } else {
-                //enviar msg de erro
-            }
+            } 
+            
         } else if ($acao == "listar") {
             $this->listarUsuarios();
         } else if ($acao == "editar") {

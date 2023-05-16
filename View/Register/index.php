@@ -67,7 +67,7 @@
 
                 <div class="buttons">
                 <input type="button" onclick="processa_cadastro()" name="btn_cadastro" id="button_cad" value="Cadastrar"/>
-                <a href="../index.html">
+                <a href="../index.php">
                 <input name="btn_cancelar" id="button_can" value="Cancelar"/>
                 </a>
                 </div>
