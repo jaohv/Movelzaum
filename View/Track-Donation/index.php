@@ -16,29 +16,29 @@
     <div class="main">
         <div class="sidebar">
             <div class="back">
-                <a href="../Initial/index.html">
+                <a href="../Initial/index.php">
                     <img src="../Assets/back-icon.svg" alt="back">
                 </a>
             </div>
             <img src="../Assets/profile-image.svg" alt="Perfil" width="110px" height="110px">
-            <a href="../Profile/index.html">
+            <a href="../Profile/index.php">
                 <button id="profile-buttom">
                     Meu perfil
                 </button>
             </a>
             <div class="menu-initial">
-                <a href="../How-Donate/index.html">
+                <a href="../How-Donate/index.php">
                     <button>
                         Como doar?
                     </button>
                 </a>
-                <a href="../Donate/index.html">
+                <a href="../Donate/index.php">
                     <button>
                         Quero doar
                     </button>
                 </a>
             </div>
-            <a href="../index.html">
+            <a href="../index.php">
                 <button id="logout-button">
                     Sair
                 </button>

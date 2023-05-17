@@ -15,13 +15,13 @@
 <body>
     <header>
         <div id="back">
-            <a href="../Initial/index.html">
+            <a href="../Initial/index.php">
                 <img src="../Assets/back-icon.svg" alt="back">
             </a>
         </div>
         <div id="img_fale">
             <h2>Fale Conosco</h2>
-            <a href="../Contact-Us/index.html">
+            <a href="../Contact-Us/index.php">
             <img src="../Assets/img-fale-conosco.svg" alt="fale conosco">
             </a>
         </div>
@@ -46,7 +46,7 @@
         <div class="divDoar">
             <a class="numeroDoar">3-</a>
             <img src="../Assets/image3-comoDoar.svg" alt="img3_comoDoar">
-            <p class="textoDoar">Após a finalização do seu cadastro, <u><a style="text-decoration: none; "href="../Track-Donation/index.html">ACOMPANHE AS DOAÇÕES</a></u></p>
+            <p class="textoDoar">Após a finalização do seu cadastro, <u><a style="text-decoration: none; "href="../Track-Donation/index.php">ACOMPANHE AS DOAÇÕES</a></u></p>
         </div>
     </div>
 

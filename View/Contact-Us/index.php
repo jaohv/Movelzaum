@@ -14,7 +14,7 @@
 
 <body>
     <header>
-        <a href="../Initial/index.html">
+        <a href="../Initial/index.php">
             <img src="../Assets/back-icon.svg" alt="back">
         </a>
     </header>

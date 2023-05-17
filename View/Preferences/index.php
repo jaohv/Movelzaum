@@ -15,11 +15,11 @@
 <body>
     <div class="main">
         <div class="sidebar">
-            <a href="../Profile/index.html">
+            <a href="../Profile/index.php">
             <img src="../Assets/profile-image.svg" alt="Perfil" width="110px" height="110px">
             </a>
             
-            <a href="../index.html">
+            <a href="../index.php">
                 <button id="logout-button">
                     SAIR
                 </button>
