@@ -60,7 +60,7 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Cadeira</td>
+                            <td>Sofá</td>
                             <td>22/05/2023</td>
                             <td>Em andamento</td>
                         </tr>

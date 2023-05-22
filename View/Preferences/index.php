@@ -18,10 +18,10 @@
             <a href="../Profile/index.php">
             <img src="../Assets/profile-image.svg" alt="Perfil" width="110px" height="110px">
             </a>
-            
+            <h3>João Vitor</h3>
             <a href="../Profile/index.php">
                 <button id="logout-button">
-                    VOLTAR
+                    Voltar
                 </button>
             </a>
         </div>
