@@ -25,7 +25,7 @@
                 <h3>NOME DO USUARIO</h3>
             </div>
             <div class="menu-profile">
-                <a href="../../../Controller/usuario_controller.php?acao=editar&id=" .$_SESSION["id"]"">
+                <a href="../Profile/Edit-Profile/index.php">
                     <button class="hover-button">Editar dados</button>
                 </a>
                 <a href="../Preferences/index.php">
