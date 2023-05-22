@@ -22,7 +22,7 @@
             </div>
             <div class="profile">
                 <img src="../Assets/user-icon.svg" alt="Perfil" width="110px" height="110px">
-                <h3>NOME DO USUARIO</h3>
+                <h3>João Vitor</h3>
             </div>
             <div class="menu-profile">
                 <!-- <a href="../Profile/Edit-Profile/index.php">

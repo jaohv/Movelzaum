@@ -60,7 +60,9 @@
                 <input type="text" id="e-mail" name="e-mail">
                 <label>Senha</label>
                 <input type="password" id="senha" name="senha">
-                <input type="button" value="Entrar" id="entrar_button" onclick="processa_login()">
+                <a href="../View/Initial/index.php">
+                    <input type="button" value="Entrar" id="entrar_button">
+                </a>
                 <a href="./ResetPassword/index.php" style="text-decoration: none;">
                     <span class="hover-effect">Esqueceu a senha?</span>
                     <a href="./Register/index.php" style="text-decoration: none;">

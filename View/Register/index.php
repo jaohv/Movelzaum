@@ -59,7 +59,9 @@
                     <input type="hidden" name="perfil" value="1">
                     <label class="register_tit"> Endereço: </label> <br> <input type="text" class="register_ins" name="endereco" id="endereco" /> <br><br>
                     <div class="buttons">
-                        <input type="button" onclick="processa_cadastro()" name="btn_cadastro" id="button_cad" value="Cadastrar" />
+                        <a href="../index.php">
+                            <input type="button" onclick="processa_cadastro()" name="btn_cadastro" id="button_cad" value="Cadastrar" />
+                        </a>
                         <a href="../index.php">
                             <input name="btn_cancelar" id="button_can" value="Cancelar" />
                         </a>
