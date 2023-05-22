@@ -109,3 +109,11 @@ tr:nth-child(even) {
 .back {
     width: 100%;
 }
+
+button:hover {
+    background-color: #999;
+}
+
+.back :hover {
+    transform: scale(1.1);
+}

@@ -112,3 +112,16 @@ body {
 #profile-buttom {
     margin-top: 10px;
 }
+
+.hover-button {
+    background-color: #ccc;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hover-button:hover {
+    background-color: #999;
+}

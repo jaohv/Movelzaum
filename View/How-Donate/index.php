@@ -22,34 +22,38 @@
         <div id="img_fale">
             <h2>Fale Conosco</h2>
             <a href="../Contact-Us/index.php">
-            <img src="../Assets/img-fale-conosco.svg" alt="fale conosco">
+                <img src="../Assets/img-fale-conosco.svg" alt="fale conosco">
             </a>
         </div>
     </header>
 
-    <!-- Titulo Como doar -->
-    <h1 id="como_doar"> <b>COMO DOAR? </b></h1>
+    <h1 id="como_doar"><b>COMO DOAR?</b></h1>
 
     <div class="content">
         <div class="divDoar">
             <a class="numeroDoar">1-</a>
             <img src="../Assets/image1-comoDoar.svg" alt="img1_comoDoar">
-            <p class="textoDoar">Na tela iniciar acessar a opção <u><a style="text-decoration: none; "href="../Donate/index.php">QUERO DOAR</a></u></p>
+            <p class="textoDoar">Na tela iniciar acessar a opção
+            <p class="hover-effect"><u><a style="text-decoration: none; margin-left: -50px;" href="../Donate/index.php">QUERO DOAR</a></u></p>
+            </p>
         </div>
-    
+
         <div class="divDoar">
             <a class="numeroDoar">2-</a>
             <img src="../Assets/image2-comoDoar.svg" alt="img2_comoDoar">
             <p class="textoDoar">Preencha o formulário de cadastro do móvel</p>
         </div>
-    
+
         <div class="divDoar">
             <a class="numeroDoar">3-</a>
             <img src="../Assets/image3-comoDoar.svg" alt="img3_comoDoar">
-            <p class="textoDoar">Após a finalização do seu cadastro, <u><a style="text-decoration: none; "href="../Track-Donation/index.php">ACOMPANHE AS DOAÇÕES</a></u></p>
+            <p class="textoDoar">Após a finalização do seu cadastro,
+            <p class="hover-effect"><u><a style="text-decoration: none; margin-left: -50px;" href="../Track-Donation/index.php">ACOMPANHE AS DOAÇÕES</a></u></p>
+            </p>
         </div>
     </div>
 
-    
+
 </body>
+
 </html>

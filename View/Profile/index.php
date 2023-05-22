@@ -25,14 +25,14 @@
                 <h3>NOME DO USUARIO</h3>
             </div>
             <div class="menu-profile">
-		<a href="../../../Controller/usuario_controller.php?acao=editar&id=".$_SESSION["id"]"">
-		<button>Editar dados</button>
-		</a>
-        <a href="../Preferences/index.php">
-                <button>Preferências</button>
-            </a>
+                <a href="../../../Controller/usuario_controller.php?acao=editar&id=" .$_SESSION["id"]"">
+                    <button class="hover-button">Editar dados</button>
+                </a>
+                <a href="../Preferences/index.php">
+                    <button class="hover-button">Preferências</button>
+                </a>
             </div>
-            <button id="logout-button">Sair</button>
+            <button class="hover-button" id="logout-button">Sair</button>
         </div>
         <div class="content">
             <!-- dsadsas -->

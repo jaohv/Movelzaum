@@ -17,29 +17,29 @@
         <div class="sidebar">
             <img src="../Assets/profile-image.svg" alt="Perfil" width="110px" height="110px">
             <a href="../Profile/index.php">
-                <button id="profile-buttom">
+                <button id="profile-buttom" class="hover-button">
                     Meu perfil
                 </button>
             </a>
             <div class="menu-initial">
                 <a href="../How-Donate/index.php">
-                    <button>
-                        Como doar?
+                    <button class="hover-button">
+                        Como doar
                     </button>
                 </a>
                 <a href="../Donate/index.php">
-                <button>
-                    Quero doar
-                </button>
+                    <button class="hover-button">
+                        Quero doar
+                    </button>
                 </a>
                 <a href="../Track-Donation/index.php">
-                <button>
-                    Acompanhar doações
-                </button>
+                    <button class="hover-button">
+                        Acompanhar doações
+                    </button>
                 </a>
             </div>
             <a href="../index.php">
-                <button id="logout-button">
+                <button id="logout-button" class="hover-button">
                     Sair
                 </button>
             </a>

@@ -13,40 +13,38 @@
 </head>
 
 <body>
-<script src="../../static/js/jquery-3.6.4.min.js"></script>
-		<script type="text/javascript">
-			$( document ).ready(function() {
-			});
+    <script src="../../static/js/jquery-3.6.4.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {});
 
-			function processa_doar(){
-				var formDados = {
-					nome: $("#nome").val(),
-					condicao: $("#condicao").val(),
-					telefone: $("#telefone").val(),
-					endereco: $("#endereco").val(),
-                    descricao: $("#descricao").val(),
-                    
+        function processa_doar() {
+            var formDados = {
+                nome: $("#nome").val(),
+                condicao: $("#condicao").val(),
+                telefone: $("#telefone").val(),
+                endereco: $("#endereco").val(),
+                descricao: $("#descricao").val(),
 
-    			};
 
-				$.ajax({
-					type: "POST",
-					url: "../../controller/movel_controller.php?acao=doar",
-					data: formDados,
-					dataType: "json",
-					}).done(function (dataRetorno) {
-						if(dataRetorno.erro == 0){
-							alert(dataRetorno.msg)
-							window.location.href = dataRetorno.url;
-						}
-						else{
-							alert(dataRetorno.msg)
-						}
-						
-				});
-				
-			}
-		</script>
+            };
+
+            $.ajax({
+                type: "POST",
+                url: "../../controller/movel_controller.php?acao=doar",
+                data: formDados,
+                dataType: "json",
+            }).done(function(dataRetorno) {
+                if (dataRetorno.erro == 0) {
+                    alert(dataRetorno.msg)
+                    window.location.href = dataRetorno.url;
+                } else {
+                    alert(dataRetorno.msg)
+                }
+
+            });
+
+        }
+    </script>
 
     <div class="main">
         <div class="sidebar">
@@ -67,9 +65,11 @@
                         Como doar?
                     </button>
                 </a>
-                <button>
-                    Acompanhar doações
-                </button>
+                <a href="../Track-Donation/index.php">
+                    <button>
+                        Acompanhar doações
+                    </button>
+                </a>
             </div>
             <a href="../index.php">
                 <button id="logout-button">
@@ -109,7 +109,7 @@
             <footer>
                 <div class="two-button">
                     <button>Cancelar</button>
-                    <input type="button" onclick="processa_doar()" name="btn_doar" id="button_cad" value="Doar"/>
+                    <input type="button" onclick="processa_doar()" name="btn_doar" id="button_cad" value="Doar" />
                 </div>
             </footer>
         </div>

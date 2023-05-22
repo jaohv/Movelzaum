@@ -19,7 +19,7 @@
             <img src="../Assets/profile-image.svg" alt="Perfil" width="110px" height="110px">
             </a>
             
-            <a href="../index.php">
+            <a href="../Profile/index.php">
                 <button id="logout-button">
                     SAIR
                 </button>
