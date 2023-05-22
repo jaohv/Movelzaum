@@ -21,7 +21,7 @@
             
             <a href="../Profile/index.php">
                 <button id="logout-button">
-                    SAIR
+                    VOLTAR
                 </button>
             </a>
         </div>
