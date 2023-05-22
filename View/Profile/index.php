@@ -25,9 +25,9 @@
                 <h3>NOME DO USUARIO</h3>
             </div>
             <div class="menu-profile">
-                <a href="../Profile/Edit-Profile/index.php">
+                <!-- <a href="../Profile/Edit-Profile/index.php">
                     <button class="hover-button">Editar dados</button>
-                </a>
+                </a> -->
                 <a href="../Preferences/index.php">
                     <button class="hover-button">Preferências</button>
                 </a>
