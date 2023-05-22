@@ -26,7 +26,7 @@ class MovelController
             $movel->__set("descricao", $descricao);
 
             if ($movel->salvar() == true) {
-                $retorno = ["msg" => "Doação feita com sucesso!", "erro" => "0", "url" => "../principal.php"];
+                $retorno = ["msg" => "Doação feita com sucesso!", "erro" => "0", "url" => "../Track-Donation/index.php"];
                 echo json_encode($retorno);
             } else {
                 $retorno = ["msg" => "Erro ao fazer a doação!", "erro" => "1"];
