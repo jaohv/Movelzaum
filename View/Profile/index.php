@@ -32,7 +32,9 @@
                     <button class="hover-button">Preferências</button>
                 </a>
             </div>
+            <a href="../index.php">
             <button class="hover-button" id="logout-button">Sair</button>
+            </a>
         </div>
         <div class="content">
             <!-- dsadsas -->

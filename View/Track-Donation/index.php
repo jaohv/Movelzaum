@@ -60,24 +60,10 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Objeto 1</td>
-                            <td>01/01/2023</td>
+                            <td>Cadeira</td>
+                            <td>22/05/2023</td>
                             <td>Em andamento</td>
                         </tr>
-                        <tr>
-                            <td>Objeto 2</td>
-                            <td>15/02/2023</td>
-                            <td>Concluído</td>
-                        </tr>
-                        <tr>
-                            <td>Objeto 3</td>
-                            <td>23/03/2023</td>
-                            <td>Em espera</td>
-                        </tr>
-                        <tr>
-                            <td>Objeto 4</td>
-                            <td>10/04/2023</td>
-                            <td>Cancelado</td>
                         </tr>
                     </tbody>
                 </table>
