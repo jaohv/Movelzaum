@@ -16,23 +16,33 @@
     <div class="main">
         <div class="sidebar">
             <img src="../Assets/profile-image.svg" alt="Perfil" width="110px" height="110px">
-            <button>
-                MEU PERFIL
-            </button>
+            <a href="../Profile/index.php">
+                <button id="profile-buttom" class="hover-button">
+                    Meu perfil
+                </button>
+            </a>
             <div class="menu-initial">
-                <button>
-                    COMO DOAR?
-                </button>
-                <button>
-                    QUERO DOAR
-                </button>
-                <button>
-                    ACOMPANHAR DOAÇÕES
-                </button>
+                <a href="../How-Donate/index.php">
+                    <button class="hover-button">
+                        Como doar
+                    </button>
+                </a>
+                <a href="../Donate/index.php">
+                    <button class="hover-button">
+                        Quero doar
+                    </button>
+                </a>
+                <a href="../Track-Donation/index.php">
+                    <button class="hover-button">
+                        Acompanhar doações
+                    </button>
+                </a>
             </div>
-            <button id="logout-button">
-                SAIR
-            </button>
+            <a href="../index.php">
+                <button id="logout-button" class="hover-button">
+                    Sair
+                </button>
+            </a>
         </div>
         <div class="content">
             <h1 id="title">Tópicos sobre a importância da doação de móveis</h1>
