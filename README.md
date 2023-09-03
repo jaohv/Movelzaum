@@ -1,7 +1,9 @@
 # Movelzaum
 
-Projeto está sendo desenvolvido durante o Curso Técnico em Desenvolvimento de Sistemas na instituição Senac - RS.
+Durante o curso Técnico em Desenvolvimento de Sistemas no Senac RS, tivemos que criar uma ideia de projeto para que fosse entregue no final do curso, com isso surgiu a ideia de criar o Movelzaum.
 
-A ideia foi desenvolvida ao longo do curso desde o planejamento de como iriamos implementar o sistema como questão de UX e UI.
+Movelzaum é um site que facilita o processo de doações de móveis ligando o doador ao orgão responsável pela doação (Prefeituras, ONGs e etc).
 
-Criadores: Alenson Lopes, Felipe Capella e João Vitor Miranda;
+O projeto foi desenvolvido em HTML, CSS e PHP.
+
+Criadores: Alenson Lopes, Felipe Capella e João Vitor Miranda
